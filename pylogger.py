@@ -1,7 +1,7 @@
 import logging
 from time import strftime
 
-filename = "{}-{}.log".format("myapp", strftime("%Y_%m_%d_%H_%M_%S"))
+filename = "log/{}-{}.log".format("myapp", strftime("%Y_%m_%d_%H_%M_%S"))
 
 logging.basicConfig(
     level=logging.INFO,
