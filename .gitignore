@@ -19,4 +19,5 @@ config.json
 .sonarlint
 
 ## Python ##
+*/__pycache__/
 *.pyc
