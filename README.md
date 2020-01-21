@@ -19,7 +19,35 @@ Simple python library that handle Logging of a script.
 
 ## Installation
 
+You can install the module via pip :  
+`pip install kleenlogger`
+
+or via wheel file [From PyPi](https://pypi.org/project/KleenLogger/#files) :  
+```
+pip install wheel
+python -m wheel install wheel_file.whl
+```
 
 ## Documentation
 
-Soon
+The aim of kleenlogger is to make it simple for the user to get script made logging.  
+First import it to your script :
+```PYTHON3
+from kleenlogger import kleenlogger, KleenLogger
+```
+
+Then you can setup the logger format with the init_logger() function :
+```PYTHON3
+kleenlogger.init_logger(
+    "AppName",
+    KleenLogger.DEBUG,
+    "[%(asctime)s][%(levelname)s] : [%(filename)s][%(funcName)s] : %(message)s",
+    "%Y-%m-%d %H:%M:%S"
+)
+```
+
+Now you can use the logger variable of kleentimer like a python logging : 
+```PYTHON3
+kleenlogger.logger.info("This is an info logging message")
+kleenlogger.logger.error("Thiss is an error logging message")
+```
