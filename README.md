@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".github/_static/KleenLogger.jpg">
+  <img src="https://raw.githubusercontent.com/Edenskull/KleenLogger/master/.github/_static/KleenLogger.jpg">
 </div>
 
 <div align="center">
