@@ -1,23 +1,25 @@
-# PyLogger
+<div align="center">
+  <img src=".github/_static/KleenLogger.jpg">
+</div>
 
-<img alt="Image Banner" src="https://raw.githubusercontent.com/Edenskull/PyLogger/master/.github/UI_ASSETS/Banner.jpg?sanitize=true" align="center"/>
-</br>
-<p align="center">
-  <a href="https://github.com/Edenskull/PyLogger/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Edenskull/PyLogger.svg"/></a>
-  <a href="https://github.com/Edenskull/PyLogger/issues"><img src="https://img.shields.io/github/issues/Edenskull/PyLogger.svg"/></a>
-</p>
+<div align="center">
 
----
+[![GitHub license](https://img.shields.io/github/license/Edenskull/KleenLogger?color=blue&style=for-the-badge)](https://github.com/Edenskull/KleenLogger/blob/master/LICENSE)
+![GitHub repo size](https://img.shields.io/github/repo-size/Edenskull/KleenLogger?color=green&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/badge/Python-3.6%20%7C%203.7-yellow?style=for-the-badge)
 
-This module is a python module that will let you log your script actions.
+</div>
 
-## Getting Started
+# Kleen-Logger
+Simple python library that handle Logging of a script.
+
+## Table of contents
+* [Installation](#installation)
+* [Documentation](#documentation)
+
+## Installation
 
 
-## User Documentation
+## Documentation
 
-Coming Soon
-
-## Contributors
-
-[@Edenskull](https://github.com/Edenskull) : Founder and project maintainer
+Soon
